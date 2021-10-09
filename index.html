@@ -9,7 +9,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/svgAnimate.css" rel="stylesheet">
+	<!-- Plugin css -->
+	<link rel="stylesheet" type="text/css" href="plugin/slick.css">
+	<link rel="stylesheet" type="text/css" href="plugin/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="flip-clock/css/flip-clock.css">
+
     <title>Hello, world!</title>
+
+	<style type="text/css">
+		html, body {
+		  margin: 0;
+		  padding: 0;
+		}
+	
+		* {
+		  box-sizing: border-box;
+		}
+	
+		.slider {
+			width: 100%;
+			margin: 100px auto;
+		}
+	
+		.slick-slide {
+		  margin: 0px 20px;
+		}
+	
+		.slick-slide img {
+		  width: 100%;
+		}
+	
+		.slick-prev:before,
+		.slick-next:before {
+		  color: black;
+		}
+	
+	
+		.slick-slide {
+		  transition: all ease-in-out .3s;
+		  opacity: .2;
+		}
+		
+		.slick-active {
+		  opacity: .5;
+		}
+	
+		.slick-current {
+		  opacity: 1;
+		}
+	  </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -95,51 +143,111 @@
 			<div class="text-center mb-5 text-decoration-underline">
 				<h2>Our Services</h2>
 			</div>
-			<div class="row">
-				<div class="col-md-3 text-center">
-					<div class="card p-3 bg-success">
-						<i class="fas fa-biking"></i>
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							</p>
+				
+				<section class="regular slider row">
+					<div class="col-md-3 text-center">
+						<div class="card p-3">
+							<i class="fas fa-biking"></i>
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 text-center">
-					<div class="card p-3">
-						<i class="fab fa-accusoft"></i>
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							</p>
+					<div class="col-md-3 text-center">
+						<div class="card p-3">
+							<i class="fas fa-biking"></i>
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 text-center">
-					<div class="card p-3">
-						<i class="fab fa-aws"></i>
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit
-							</p>
+					<div class="col-md-3 text-center">
+						<div class="card p-3 bg-success">
+							<i class="fas fa-biking"></i>
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 text-center">
-					<div class="card p-3">
-						<i class="fas fa-biking"></i>
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							</p>
+					<div class="col-md-3 text-center">
+						<div class="card p-3">
+							<i class="fab fa-accusoft"></i>
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
 						</div>
 					</div>
-				</div>
+					<div class="col-md-3 text-center">
+						<div class="card p-3">
+							<i class="fab fa-aws"></i>
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 text-center">
+						<div class="card p-3">
+							<i class="fas fa-biking"></i>
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 text-center">
+						<div class="card p-3 bg-success">
+							<i class="fas fa-biking"></i>
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 text-center">
+						<div class="card p-3">
+							<i class="fab fa-accusoft"></i>
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- </div> -->
+		</div>
+	</div>
+
+	<div class="panel-body">
+		<div class="col-md-12 live-class-div">
+			<div class="wrapper">
+				<ul class="flip-clock-container flip-2">
+					<li class="flip-item-seconds">00</li>
+					<li class="flip-item-minutes">00</li>
+					<li class="flip-item-hours">06</li>
+					<li class="flip-item-days">00</li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -181,12 +289,37 @@
 			</div>
 		</div>
 	</div>
+
 	<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
-		<defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#002bdc88"></stop><stop offset="95%" stop-color="#32ded488"></stop></linearGradient></defs><path d="M 0,600 C 0,600 0,200 0,200 C 102.17224880382773,175.88516746411483 204.34449760765546,151.77033492822966 290,172 C 375.65550239234454,192.22966507177034 444.7942583732058,256.8038277511962 531,243 C 617.2057416267942,229.1961722488038 720.4784688995215,137.01435406698565 816,131 C 911.5215311004785,124.98564593301435 999.2918660287082,205.13875598086122 1102,231 C 1204.7081339712918,256.8612440191388 1322.3540669856459,228.4306220095694 1440,200 C 1440,200 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
-		
-		<defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#002bdcff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,600 C 0,600 0,400 0,400 C 117.12918660287082,393.3205741626794 234.25837320574163,386.6411483253588 317,382 C 399.74162679425837,377.3588516746412 448.0956937799042,374.75598086124404 541,392 C 633.9043062200958,409.24401913875596 771.3588516746412,446.334928229665 886,441 C 1000.6411483253588,435.665071770335 1092.468899521531,387.90430622009575 1181,374 C 1269.531100478469,360.09569377990425 1354.7655502392345,380.0478468899521 1440,400 C 1440,400 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+	<defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#002bdc88"></stop><stop offset="95%" stop-color="#32ded488"></stop></linearGradient></defs><path d="M 0,600 C 0,600 0,200 0,200 C 102.17224880382773,175.88516746411483 204.34449760765546,151.77033492822966 290,172 C 375.65550239234454,192.22966507177034 444.7942583732058,256.8038277511962 531,243 C 617.2057416267942,229.1961722488038 720.4784688995215,137.01435406698565 816,131 C 911.5215311004785,124.98564593301435 999.2918660287082,205.13875598086122 1102,231 C 1204.7081339712918,256.8612440191388 1322.3540669856459,228.4306220095694 1440,200 C 1440,200 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
+	
+	<defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#002bdcff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,600 C 0,600 0,400 0,400 C 117.12918660287082,393.3205741626794 234.25837320574163,386.6411483253588 317,382 C 399.74162679425837,377.3588516746412 448.0956937799042,374.75598086124404 541,392 C 633.9043062200958,409.24401913875596 771.3588516746412,446.334928229665 886,441 C 1000.6411483253588,435.665071770335 1092.468899521531,387.90430622009575 1181,374 C 1269.531100478469,360.09569377990425 1354.7655502392345,380.0478468899521 1440,400 C 1440,400 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
 
 
-    <script src="js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="plugin/slick.js" type="text/javascript" charset="utf-8"></script>
+	<script src="flip-clock/js/flip-clock.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).on('ready', function() {
+			$(".regular").slick({
+				dots: true,
+				infinite: true,
+				slidesToShow: 4,
+				slidesToScroll: 2
+			});
+
+			$('.flip-3').on('done', function() {
+                console.log('doooooonnnnnee!');
+            });
+            $('.flip-3').on('beforeFlipping', function(e, data) {
+                console.log('beforeFlipping:', data);
+            });
+            $('.flip-3').on('afterFlipping', function(e, data) {
+                console.log('afterFlipping:', data);
+            });
+		});
+	</script>
   </body>
 </html>
